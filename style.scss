@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr 1.1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas:
+      "header header header header"
+      "sidebarleft main main sidebarright"
+      "sidebarleft main main sidebarright"
+      "footer footer footer footer";
+  }
+  
+  .header { 
+      grid-area: header;
+      background-color: blueviolet;
+      height: 100px;
+ }
+  
+  .sidebarleft { 
+      grid-area: sidebarleft;
+      background-color: blueviolet;
+      height: 100px;
+     }
+  
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "new new new"
+      "newlist newlist newlist"
+      "recent recent recent"
+      "old old old";
+    grid-area: main;
+  }
+  
+  .new { 
+      grid-area: new;
+      background-color: blueviolet;
+      height: 100px;
+     }
+  
+  .newlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+    grid-area: newlist;
+    background-color: blueviolet;
+      height: 100px;
+  }
+  
+  .recent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+    grid-area: recent;
+    background-color: blueviolet;
+      height: 100px;
+  }
+  
+  .old {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . ."
+      ". . . ."
+      ". . . .";
+    grid-area: old;
+    background-color: blueviolet;
+      height: 100px;
+  }
+  
+  .sidebarright { 
+      grid-area: sidebarright;
+      background-color: blueviolet;
+      height: 100px;
+     }
+  
+  .footer { 
+      grid-area: footer;
+      background-color: blueviolet;
+      height: 100px;
+    }
+  
