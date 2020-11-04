@@ -8,10 +8,10 @@
   display: grid;
   -ms-grid-columns: 1fr 0.9fr 1.1fr 1fr;
       grid-template-columns: 1fr 0.9fr 1.1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 100px 700px  100px;
+      grid-template-rows: 100px 700px  100px;
   gap: 1px 1px;
-      grid-template-areas: "header header header header" "sidebarleft main main sidebarright" "sidebarleft main main sidebarright" "footer footer footer footer";
+      grid-template-areas: "header header header header" "sidebarleft main main sidebarright"  "footer footer footer footer";
 }
 
 .header {
@@ -19,110 +19,77 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: header;
-  background-color: blueviolet;
-  height: 100px;
+  background-color: gold;
+  height: auto;
+  max-height: 100px;
 }
 
 .sidebarleft {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: sidebarleft;
-  background-color: blueviolet;
-  height: 100px;
+  background-color: green;
 }
 
 .main {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-      grid-template-areas: "new new new" "newlist newlist newlist" "recent recent recent" "old old old";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (minmax(auto, 170px))[4];
+      grid-template-rows: repeat(4, minmax(auto, 170px));
+  gap: 20px 1px;
+      grid-template-areas: "newnotes " "newlistsection" "recentsection " "old ";
   -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: main;
+  background-color: #ffffff11;
 }
 
-.new {
+.newnotes {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: new;
-  background-color: blueviolet;
-  height: 100px;
+  grid-area: newnotes;
+  background-color: hotpink;
+  max-height: 200px;
 }
 
-.newlist {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-      grid-template-areas: ". . ." ". . ." ". . .";
+.newlistsection {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: newlist;
-  background-color: blueviolet;
-  height: 100px;
+  grid-area: newlistsection;
+  background-color: indianred;
 }
 
-.recent {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-      grid-template-areas: ". . ." ". . ." ". . .";
+.recentsection {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: recent;
-  background-color: blueviolet;
-  height: 100px;
+  grid-area: recentsection;
+  background-color: indigo;
 }
 
 .old {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-      grid-template-areas: ". . . ." ". . . ." ". . . .";
   -ms-grid-row: 4;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-area: old;
-  background-color: blueviolet;
-  height: 100px;
+  background-color: khaki;
 }
 
 .sidebarright {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
   -ms-grid-column: 4;
   grid-area: sidebarright;
-  background-color: blueviolet;
-  height: 100px;
+  background-color: lavender;
 }
 
 .footer {
-  -ms-grid-row: 4;
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: footer;
-  background-color: blueviolet;
-  height: 100px;
+  background-color: black;
+  color: white;
+  max-height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
