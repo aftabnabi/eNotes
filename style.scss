@@ -9,9 +9,19 @@
     grid-template-areas:
       "header header header header"
       "sidebarleft main main sidebarright"
-      
       "footer footer footer footer";
-  }
+@media screen and (max-width:768px) {
+  grid-template-columns: 1fr ;
+    grid-template-rows: 0.75fr 5fr 3fr 2.5fr 0.75fr;
+    gap: 10px;
+    grid-template-areas:
+      "header "
+      "main"
+      "sidebarleft"
+      "sidebarright"
+      "footer ";
+}
+    }
   
   .header { 
       grid-area: header;
@@ -20,12 +30,19 @@
       max-height: 100px;
     }
   
-  .sidebarleft { grid-area: sidebarleft; background-color: green;}
+  .sidebarleft { 
+    grid-area: sidebarleft;
+    background-color: green;
+  }
   
   .main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, minmax(auto, 170px));
+    @media screen and (max-width: 768px) {
+            grid-template-rows: repeat(4, minmax(auto, 250px));
+    }
+    
     gap: 20px 1px;
     grid-template-areas:
       "newnotes "
@@ -34,6 +51,7 @@
       "old ";
     grid-area: main;
     background-color: #ffffff11;
+    
   }
   
   .newnotes { 

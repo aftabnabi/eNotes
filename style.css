@@ -11,7 +11,18 @@
   -ms-grid-rows: 100px 700px  100px;
       grid-template-rows: 100px 700px  100px;
   gap: 1px 1px;
-      grid-template-areas: "header header header header" "sidebarleft main main sidebarright"  "footer footer footer footer";
+      grid-template-areas: "header header header header" "sidebarleft main main sidebarright" "footer footer footer footer";
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 0.75fr 5fr 3fr 2.5fr 0.75fr;
+        grid-template-rows: 0.75fr 5fr 3fr 2.5fr 0.75fr;
+    gap: 10px;
+        grid-template-areas: "header " "main" "sidebarleft" "sidebarright" "footer ";
+  }
 }
 
 .header {
@@ -45,6 +56,13 @@
   -ms-grid-column-span: 2;
   grid-area: main;
   background-color: #ffffff11;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    -ms-grid-rows: (minmax(auto, 250px))[4];
+        grid-template-rows: repeat(4, minmax(auto, 250px));
+  }
 }
 
 .newnotes {
