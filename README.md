@@ -17,9 +17,9 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="grid-container">
-            <div class="header">
+            <!-- <div class="header">
                 <h1>eNotes</h1>
-            </div>
+            </div> -->
             <div class="sidebarleft">
                 <h2>Archive</h2>
             </div>
