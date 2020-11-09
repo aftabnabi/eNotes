@@ -24,16 +24,16 @@
                 <h2>Archive</h2>
                 <nav>
                     <ul class="topiclist">
-                        <li><a href="/innerpages/first"></a></li>
-                        <li><a href="/innerpages/second"></a></li>
-                        <li><a href="/innerpages/third"></a></li>
-                        <li><a href="/innerpages/fourth"></a></li>
-                        <li><a href="/innerpages/fifth"></a></li>
+                        <li><a href="/innerpages/first">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="/innerpages/second">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="/innerpages/third">Lorem ipsum dolor sit amet consectetur.</a></li>
+                        <li><a href="/innerpages/fourth">Lorem ipsum dolor sit amet consectetur adipisicing.</a></li>
+                        <li><a href="/innerpages/fifth">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="main">
-                <div>
+                <div class="image">
                     <picture>
                         <img src="https://placeholder.it/500x350" alt="" 
                         srcset="https://placeholder.it/500x350, https://placeholder.it/300x150">
