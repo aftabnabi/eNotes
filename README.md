@@ -22,8 +22,23 @@
             </div>
             <div class="sidebarleft">
                 <h2>Archive</h2>
+                <nav>
+                    <ul class="topiclist">
+                        <li><a href="/innerpages/first"></a></li>
+                        <li><a href="/innerpages/second"></a></li>
+                        <li><a href="/innerpages/third"></a></li>
+                        <li><a href="/innerpages/fourth"></a></li>
+                        <li><a href="/innerpages/fifth"></a></li>
+                    </ul>
+                </nav>
             </div>
             <div class="main">
+                <div>
+                    <picture>
+                        <img src="https://placeholder.it/500x350" alt="" 
+                        srcset="https://placeholder.it/500x350, https://placeholder.it/300x150">
+                    </picture>
+                </div>
               <div class="newnotes">
                 <h2>Lorem ipsum dolor sit.</h2>
                 <ul class="starred">

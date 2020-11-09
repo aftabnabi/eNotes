@@ -33,6 +33,11 @@
   .sidebarleft { 
     grid-area: sidebarleft;
     background-color: green;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "nav";
   }
   
   .main {
@@ -53,7 +58,11 @@
     background-color: #ffffff11;
     
   }
-  
+  nav{
+    grid-area: nav;
+    background-color: hotpink;
+      max-height: 450px;
+  }
   .newnotes { 
       grid-area: newnotes; 
       background-color: hotpink;
