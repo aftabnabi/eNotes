@@ -79,6 +79,19 @@ nav {
   max-height: 450px;
 }
 
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li a {
+  color: white;
+  text-transform: capitalize;
+}
+
 .image > picture > img {
   width: 100%;
   -ms-flex-item-align: center;

@@ -61,8 +61,17 @@
   }
   nav{
     grid-area: nav;
-    
-      max-height: 450px;
+    max-height: 450px;
+    ul {
+      list-style: none;
+      li {
+        display: block;
+        a {
+          color:white;
+          text-transform: capitalize;
+        }
+      }
+    }
   }
   .image>picture>img {
     width:  100%;
