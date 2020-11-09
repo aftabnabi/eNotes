@@ -3,7 +3,7 @@
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 0.9fr 1.1fr 1fr;
+    grid-template-columns: 1fr 1.9fr 1.1fr 1fr;
     grid-template-rows: 100px 1500px  100px;
     gap: 1px 1px;
     grid-template-areas:
