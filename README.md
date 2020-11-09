@@ -11,7 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="/enotes/favicon.ico">
+        <link rel="shortcut icon" href="/eNotes/favicon.ico">
     </head>
     <body>
         <!--[if lt IE 7]>
