@@ -37,9 +37,9 @@
   .main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, minmax(auto, 250px));
+    grid-template-rows: repeat(4, minmax(auto, 300px));
     @media screen and (max-width: 768px) {
-            grid-template-rows: repeat(4, minmax(auto, 300px));
+            grid-template-rows: repeat(4, minmax(auto, 350px));
     }
     
     gap: 20px 1px;
