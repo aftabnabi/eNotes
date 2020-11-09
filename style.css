@@ -90,9 +90,9 @@ nav ul li {
 }
 
 nav ul li a {
-  font: 500 14px/24px 'Robato';
+  font: 500 16px/24px 'Robato';
   color: white;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .image > picture > img {
