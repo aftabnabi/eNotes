@@ -80,6 +80,13 @@ nav {
   max-height: 450px;
 }
 
+image {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .newnotes {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -100,6 +107,7 @@ nav {
   -ms-grid-column: 1;
   grid-area: recentsection;
   background-color: indigo;
+  color: #ffffff11;
 }
 
 .old {

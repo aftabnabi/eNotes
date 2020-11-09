@@ -64,6 +64,10 @@
     background-color: hotpink;
       max-height: 450px;
   }
+  image {
+    width:  100%;
+    align-self: center;
+  }
   .newnotes { 
       grid-area: newnotes; 
       background-color: hotpink;
@@ -80,6 +84,7 @@
     
     grid-area: recentsection;
     background-color: indigo;
+    color:#ffffff11;
   }
   
   .old {
