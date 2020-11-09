@@ -4,17 +4,18 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 0.9fr 1.1fr 1fr;
-    grid-template-rows: 1500px  100px;
+    grid-template-rows: 100px 1500px  100px;
     gap: 1px 1px;
     grid-template-areas:
+      "header header header header"
       "sidebarleft main main sidebarright"
       "footer footer footer footer";
 @media screen and (max-width:768px) {
   grid-template-columns: 1fr ;
-    grid-template-rows: 5fr 3fr 2.5fr 1.5fr;
+    grid-template-rows: 1.5fr 5fr 3fr 3fr 1.5fr;
     gap: 10px;
     grid-template-areas:
-      
+      "header"
       "main"
       "sidebarleft"
       "sidebarright"
