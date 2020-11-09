@@ -76,7 +76,6 @@ nav {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: nav;
-  background-color: hotpink;
   max-height: 450px;
 }
 
