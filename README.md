@@ -35,8 +35,8 @@
             <div class="main">
                 <div class="image">
                     <picture>
-                        <img src="https://placeholder.it/500x350" alt="" 
-                        srcset="https://placeholder.it/500x350, https://placeholder.it/300x150">
+                        <img src="https://placehold.it/500x350" alt="" 
+                        srcset="https://placehold.it/500x350, https://placehold.it/300x150">
                     </picture>
                 </div>
               <div class="newnotes">
