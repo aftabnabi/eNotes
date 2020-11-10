@@ -46,7 +46,7 @@
 
 .markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre {
     margin-top: 0;
-    margin-bottom: 16px
+    /* margin-bottom: 16px */
 }
 
 .markdown-body hr {
@@ -140,7 +140,7 @@
 }
 
 .markdown-body ul,.markdown-body ol {
-    padding-left: 2em
+    /* padding-left: 2em */
 }
 
 .markdown-body ul.no-list,.markdown-body ol.no-list {
@@ -211,8 +211,8 @@
 }
 
 .markdown-body img {
-    max-width: 100%;
-    box-sizing: content-box;
+    /* max-width: 100%; */
+    /* box-sizing: content-box; */
     background-color: #fff
 }
 

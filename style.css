@@ -45,6 +45,7 @@ header {
   background-color: gold;
   height: auto;
   max-height: 100px;
+  padding: 10px 0;
 }
 
 .menu-wrap {
@@ -76,6 +77,10 @@ header {
 
 .menu nav ul {
   list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.05s;
+  transition: all 0.05s;
 }
 
 .menu nav ul li {
