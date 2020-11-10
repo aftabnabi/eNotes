@@ -65,6 +65,7 @@ h2.heading {
   -ms-grid-column: 1;
   grid-area: heading;
   color: white;
+  border-bottom: none;
 }
 
 nav {
