@@ -27,10 +27,10 @@
                     <input type="checkbox" id="checkbox">
                     <nav>
                         <ul>
-                            <li><a href="http://home">Home</a></li>
-                            <li><a href="http://about">About</a></li>
-                            <li><a href="http://services">Services</a></li>
-                            <li><a href="http://contact">Contact</a></li>
+                            <li><a href="http://#home">Home</a></li>
+                            <li><a href="http://#about">About</a></li>
+                            <li><a href="http://#services">Services</a></li>
+                            <li><a href="http://#contact">Contact</a></li>
                         </ul>
                     </nav>
                     <label for="checkbox">
