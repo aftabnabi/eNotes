@@ -55,6 +55,7 @@ ul {
   -ms-grid-rows: 1fr 11fr;
       grid-template-rows: 1fr 11fr;
       grid-template-areas: "heading"  "nav";
+  gap: 1px;
 }
 
 .heading {

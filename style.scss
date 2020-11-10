@@ -45,6 +45,7 @@ ul {
     grid-template-areas:
     "heading" 
     "nav";
+    gap:1px;
   }
   .heading {
     align-self: center;
