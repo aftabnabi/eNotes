@@ -10,6 +10,7 @@
         <title>eNotes</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="stylesheet" href="local.reset.css">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="/eNotes/favicon.ico">
     </head>

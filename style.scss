@@ -50,6 +50,9 @@ ul {
   .heading {
     justify-self: center;
     grid-area: heading;
+    h2 {
+      color: white;
+    }
   }
   nav{
     grid-area: nav;

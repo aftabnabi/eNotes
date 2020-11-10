@@ -66,6 +66,10 @@ ul {
   grid-area: heading;
 }
 
+.heading h2 {
+  color: white;
+}
+
 nav {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
