@@ -3,6 +3,14 @@
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -44,9 +52,9 @@
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
-      grid-template-areas: "nav";
+  -ms-grid-rows: 1fr 11fr;
+      grid-template-rows: 1fr 11fr;
+      grid-template-areas: "heading"  "nav";
 }
 
 .main {
@@ -73,7 +81,7 @@
 }
 
 nav {
-  -ms-grid-row: 1;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: nav;
   max-height: 450px;
@@ -81,7 +89,8 @@ nav {
 
 nav ul {
   list-style: none;
-  padding-left: 0;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
 }
 
 nav ul li {
@@ -90,7 +99,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font: 500 16px/24px 'Robato';
+  font: 500 16px/24px '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"';
   color: white;
   text-transform: uppercase;
 }

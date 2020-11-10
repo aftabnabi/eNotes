@@ -22,7 +22,7 @@
                 <h1>eNotes</h1>
             </div>
             <div class="sidebarleft">
-                <h2>Archive</h2>
+                <h2 class="heading">Archive</h2>
                 <nav>
                     <ul class="topiclist">
                         <li><a href="/innerpages/first">Lorem ipsum dolor sit amet.</a></li>
