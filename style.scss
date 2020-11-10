@@ -92,6 +92,8 @@ h1.enotes {
     .menu-icon {
       display: none;
     }
+  }
+  @media screen and (min-width: 768px){
     .menu nav {
       position: relative;
       top: -10px;
