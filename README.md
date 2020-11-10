@@ -25,11 +25,11 @@
                 <h2 class="heading">Archive</h2>
                 <nav>
                     <ul class="topiclist">
-                        <li><a href="/innerpages/first">Lorem ipsum dolor sit amet.</a></li>
-                        <li><a href="/innerpages/second">Lorem ipsum dolor sit.</a></li>
-                        <li><a href="/innerpages/third">Lorem ipsum dolor sit amet consectetur.</a></li>
-                        <li><a href="/innerpages/fourth">Lorem ipsum dolor sit amet consectetur adipisicing.</a></li>
-                        <li><a href="/innerpages/fifth">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a></li>
+                        <li><a href="/innerpages/first.html">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="/innerpages/second.html">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="/innerpages/third.html">Lorem ipsum dolor sit amet consectetur.</a></li>
+                        <li><a href="/innerpages/fourth.html">Lorem ipsum dolor sit amet consectetur adipisicing.</a></li>
+                        <li><a href="/innerpages/fifth.html">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a></li>
                     </ul>
                 </nav>
             </div>
