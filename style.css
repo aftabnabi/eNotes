@@ -57,6 +57,40 @@ ul {
       grid-template-areas: "heading"  "nav";
 }
 
+.heading {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: heading;
+}
+
+nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  max-height: 450px;
+}
+
+nav ul.topiclist {
+  list-style: none;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+  padding-left: 10px;
+}
+
+nav ul.topiclist li {
+  display: block;
+  line-height: 20px;
+}
+
+nav ul.topiclist li a {
+  font: 500 16px/24px '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"';
+  color: white;
+  text-transform: uppercase;
+}
+
 .main {
   display: -ms-grid;
   display: grid;
@@ -78,30 +112,6 @@ ul {
     -ms-grid-rows: (minmax(auto, 360px))[5];
         grid-template-rows: repeat(5, minmax(auto, 360px));
   }
-}
-
-nav {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: nav;
-  max-height: 450px;
-}
-
-nav ul {
-  list-style: none;
-  -webkit-padding-start: 10px;
-          padding-inline-start: 10px;
-}
-
-nav ul li {
-  display: block;
-  line-height: 20px;
-}
-
-nav ul li a {
-  font: 500 16px/24px '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"';
-  color: white;
-  text-transform: uppercase;
 }
 
 .image > picture > img {
