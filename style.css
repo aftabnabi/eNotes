@@ -11,6 +11,10 @@ ul {
   list-style: none;
 }
 
+h1.enotes {
+  border-bottom: none;
+}
+
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -184,5 +188,9 @@ nav ul.topiclist li a {
   .footer {
     max-height: 300px;
   }
+}
+
+.footer h2.enotes {
+  border-bottom: none;
 }
 /*# sourceMappingURL=style.css.map */

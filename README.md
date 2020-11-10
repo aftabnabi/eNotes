@@ -20,7 +20,7 @@
         <![endif]-->
         <div class="grid-container">
             <div class="header">
-                <h1>eNotes</h1>
+                <h1 class="enotes">eNotes</h1>
             </div>
             <div class="sidebarleft">
                 <h2 class="heading">Archive</h2>
