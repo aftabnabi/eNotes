@@ -23,7 +23,7 @@
             <header class="menu">
                 <!-- <h1 class="enotes">eNotes</h1> -->
                 <div class="menu-wrap">
-                    <img src="/images/logo.png" alt="" class="logo-img">
+                    <img src="./images/logo.png" alt="" class="logo-img">
                     <input type="checkbox" id="checkbox">
                     <nav>
                         <ul>
