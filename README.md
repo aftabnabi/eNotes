@@ -79,7 +79,15 @@
               </div>
             </div>
             <div class="sidebarright">
-                <h2>To Do</h2>
+                <h3>To Do</h3>
+                <div class="economics">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit cumque quo temporibus, dignissimos autem placeat quam quae beatae quidem vitae!
+                    </p>
+                </div>
+                <div class="projects">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veritatis commodi necessitatibus doloribus molestiae recusandae eum vel. Ipsum, exercitationem repudiandae!   </p>
+                </div>
             </div>
             <div class="footer">
                 <h2>eNotes 2</h2>
