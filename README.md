@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="footer">
-                <h2>eNotes 2</h2>
+                <h2 class="enotes">eNotes 2</h2>
             </div>
           </div>
         <script src="" async defer></script>
