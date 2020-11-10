@@ -88,6 +88,15 @@
                 <div class="projects">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veritatis commodi necessitatibus doloribus molestiae recusandae eum vel. Ipsum, exercitationem repudiandae!   </p>
                 </div>
+                <div class="economics">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit corrupti cupiditate rem ad. Consectetur id nemo maxime amet accusantium cupiditate!</p>
+                </div>
+                <div class="economics">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit corrupti cupiditate rem ad. Consectetur id nemo maxime amet accusantium cupiditate!</p>
+                </div>
+                <div class="economics">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit corrupti cupiditate rem ad. Consectetur id nemo maxime amet accusantium cupiditate!</p>
+                </div>
             </div>
             <div class="footer">
                 <h2 class="enotes">eNotes 2</h2>
