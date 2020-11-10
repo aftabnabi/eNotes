@@ -34,13 +34,72 @@ h1.enotes {
 }
     }
   
-  .header { 
+  header { 
       grid-area: header;
       background-color: gold;
       height: auto;
       max-height: 100px;
     }
-  
+  .menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .logo-img {
+    height: 50px;
+  }
+  .menu-icon {
+    font: 600 2.4em/50px $fontstyle;
+    color: #fff;
+  }
+  .menu nav {
+    position: absolute;
+    background-color: #3D4852;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    ul {
+      list-style-type: none;
+      li {
+        padding: 0 15px;
+        a {
+          display: inline-block;
+          padding: 12px;
+          color: #DAE1E7;
+          text-decoration: none;
+          letter-spacing: 0.05em;
+          &:hover, &:focus {
+            color: #eb6f4a;
+          }
+        }
+      }
+    }
+  }
+  #checkbox {
+    display: none;
+  }
+  #checkbox:checked ~ nav ul {
+    max-height: 200px;
+    padding: 15px 0;
+    transition: all 0.5s;
+  }
+  @media screen and (min-width: 768px) {
+    .menu-icon {
+      display: none;
+    }
+    .menu nav {
+      position: relative;
+      top: -10px;
+      background-color: transparent;
+      ul {
+        max-height: 70px;
+        padding: 15px 0;
+        text-align: right;
+        display: inline-flex;
+        padding-left: 20px;
+      }
+    }
+  }
   .sidebarleft { 
     grid-area: sidebarleft;
     background-color: green;

@@ -13,15 +13,31 @@
         <link rel="stylesheet" href="style.css">
         <meta name="stylesheet" href="local.reset.css">
         <link rel="shortcut icon" href="/eNotes/favicon.ico">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="grid-container">
-            <div class="header">
-                <h1 class="enotes">eNotes</h1>
-            </div>
+            <header class="menu">
+                <!-- <h1 class="enotes">eNotes</h1> -->
+                <div class="menu-wrap">
+                    <img src="/images/logo.png" alt="" class="logo-img">
+                    <input type="checkbox" id="checkbox">
+                    <nav>
+                        <ul>
+                            <li><a href="http://home">Home</a></li>
+                            <li><a href="http://about">About</a></li>
+                            <li><a href="http://services">Services</a></li>
+                            <li><a href="http://contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <label for="checkbox">
+                        <i class="fa fa-bars menu-icon"></i>
+                     </label>
+                </div>
+            </header>
             <div class="sidebarleft">
                 <h2 class="heading">Archive</h2>
                 <nav>
