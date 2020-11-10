@@ -58,15 +58,12 @@ ul {
   gap: 1px;
 }
 
-.heading {
+h2.heading {
   -ms-grid-column-align: center;
       justify-self: center;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: heading;
-}
-
-.heading h2 {
   color: white;
 }
 

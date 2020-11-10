@@ -47,12 +47,11 @@ ul {
     "nav";
     gap:1px;
   }
-  .heading {
+  h2.heading {
     justify-self: center;
     grid-area: heading;
-    h2 {
-      color: white;
-    }
+    color: white;
+    
   }
   nav{
     grid-area: nav;
