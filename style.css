@@ -48,7 +48,7 @@ header {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: header;
-  background-color: gold;
+  background-color: black;
   height: auto;
   max-height: 100px;
   padding: 10px 0;
@@ -75,7 +75,7 @@ header {
 
 .menu nav {
   position: absolute;
-  background-color: gold;
+  background-color: black;
   top: 170px;
   /*originally 70px*/
   left: 0;
@@ -97,7 +97,7 @@ header {
 .menu nav ul li a {
   display: inline-block;
   padding: 12px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   letter-spacing: 0.05em;
 }
@@ -284,16 +284,81 @@ nav ul.topiclist li a {
   grid-area: footer;
   background-color: black;
   color: white;
-  max-height: 100px;
 }
 
-@media screen and (max-width: 768px) {
-  .footer {
+.footer .mwrapper {
+  max-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .mwrapper {
     max-height: 300px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
-.footer h2.enotes {
+.footer .mwrapper h2.enotes {
   border-bottom: none;
+}
+
+.footer .mwrapper .ftr ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .mwrapper .ftr ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.footer .mwrapper .ftr ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.footer .mwrapper .ftr ul li a {
+  color: white;
+}
+
+.cp {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

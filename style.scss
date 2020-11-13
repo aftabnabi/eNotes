@@ -41,7 +41,7 @@ h1.enotes {
   
   header { 
       grid-area: header;
-      background-color: gold;
+      background-color: black;
       height: auto;
       max-height: 100px;
       padding: 10px 0;
@@ -61,7 +61,7 @@ h1.enotes {
   }
   .menu nav {
     position: absolute;
-    background-color: gold;
+    background-color: black;
     top: 170px;/*originally 70px*/
     left: 0;
     width: 100%;
@@ -75,7 +75,7 @@ h1.enotes {
         a {
           display: inline-block;
           padding: 12px;
-          color: #000;
+          color: #fff;
           text-decoration: none;
           letter-spacing: 0.05em;
           &:hover, &:focus {
@@ -221,15 +221,48 @@ h1.enotes {
     }
   }
 
-  .footer { 
-      grid-area: footer;
-      background-color: black;
-      color: white;
-      max-height: 100px;
-      @media screen  and (max-width: 768px) {
+  .footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    .mwrapper { 
+      max-height: 300px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 20px;
+      @media screen  and (min-width: 768px) {
         max-height: 300px;
+        flex-direction: row;
+        justify-content: space-between;
       }
       h2.enotes {
         border-bottom: none;
       }
+      .ftr {
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            
+            @media screen and (min-width:768px){
+              flex-direction: row;
+            }
+              list-style-type: none;;
+              li {
+                display: inline-flex;
+                justify-content: space-between;
+                padding: 20px;
+                a {
+                    color: white;
+            }
+          }
+        }
+      }
     }
+  }
+        .cp {
+          text-align: center;
+        }

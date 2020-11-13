@@ -115,7 +115,18 @@
                 </div>
             </div>
             <div class="footer">
-                <h2 class="enotes">eNotes 2</h2>
+                <div class="mwrapper">
+                    <h2 class="enotes">eNotes 2</h2>
+                    <nav class="ftr">
+                        <ul>
+                            <li class="item"><a href="http://#lorem">Home</a></li>
+                            <li class="item"><a href="http://##ispum">Contact</a></li>
+                            <li class="item"><a href="http://#dolor">About</a></li>
+                            <li class="item"><a href="http://#sitsse">Services</a></li>
+                        </ul>
+                    </nav>      
+                </div>
+                <p class="cp">&copy; Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repudiandae.</p> 
             </div>
           </div>
         <script src="" async defer></script>
