@@ -27,10 +27,10 @@
                     <input type="checkbox" id="checkbox">
                     <nav>
                         <ul>
-                            <li><a href="http://#home">Home</a></li>
-                            <li><a href="http://#about">About</a></li>
-                            <li><a href="http://#services">Services</a></li>
-                            <li><a href="http://#contact">Contact</a></li>
+                            <li class="hover-grow"><a href="http://#home">Home</a></li>
+                            <li class="hover-grow"><a href="http://#about">About</a></li>
+                            <li class="hover-grow"><a href="http://#services">Services</a></li>
+                            <li class="hover-grow"><a href="http://#contact">Contact</a></li>
                         </ul>
                     </nav>
                     <label for="checkbox">
@@ -119,10 +119,10 @@
                     <h2 class="enotes">eNotes 2</h2>
                     <nav class="ftr">
                         <ul>
-                            <li class="item"><a href="http://#lorem">Home</a></li>
-                            <li class="item"><a href="http://##ispum">Contact</a></li>
-                            <li class="item"><a href="http://#dolor">About</a></li>
-                            <li class="item"><a href="http://#sitsse">Services</a></li>
+                            <li class="hover-grow "><a href="http://#lorem">Home</a></li>
+                            <li class="hover-grow "><a href="http://##ispum">Contact</a></li>
+                            <li class="hover-grow"><a href="http://#dolor">About</a></li>
+                            <li class="hover-grow"><a href="http://#sitsse">Services</a></li>
                         </ul>
                     </nav>      
                 </div>
